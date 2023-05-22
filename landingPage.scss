@@ -134,12 +134,15 @@ header {
 
 
 .searchLink{
+   display: flex;
    padding: 10px;
    align-self: center;
    font-size: 12px;
+   gap: 4px;
 }
 
-.sl{
+
+.sl {
    font-size: 14px;
    color: #5D3166;
 
@@ -185,6 +188,9 @@ header {
    min-width: 300px;
    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
    z-index: 1;
+   font-size: 14px;
+   font-family: sans-serif;
+   color: #222222;
    
 }
  .arrow{
@@ -199,6 +205,7 @@ header {
 .caption{
    display: flex;
    justify-content: space-between;
+   font-size: 16px;
 }
 
 .optionCaption:hover .options {
@@ -264,6 +271,9 @@ header {
    top: 0;
    left: 100%;
    width: 100%;
+   font-size: 14px;
+   font-family: sans-serif;
+   color: #222222;
    
 }
 
